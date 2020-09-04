@@ -1,0 +1,77 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+.settings
+.project
+.idea
+.vscode
+*.iml
+*.bak
+work
+*~
+overlays*
+*.info
+classes/
+.DS_Store
+*/node_modules/
+*/.grunt/
+
+# Static assets
+*.scssc
+.sass-cache/
+assets/bin/
+**/.classpath
+
+# Freemarker preprocessor mocking tool
+fmppmock/
+fmpp.log
+
+# Intellij WAR exploded output folder
+out
+
+# Chrome temporary log file
+libpeerconnection.log
+
+# Webengage file
+.swp
+contiperf-report
+
+# Test generated data
+data/
+phantomjsdriver.log
+*.css.map
+freemarker_implicit.ftl
+*.gz
+
