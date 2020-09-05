@@ -14,10 +14,7 @@ public class HomePageController {
     private final static Logger logger = LoggerFactory.getLogger(HomePageController.class);
 
     @Value("${spring.application.name}")
-    String appName;
-
-    @Value("${nla.comingsoon.date}")
-    String comingSoon;
+    private String appName;
 
     @GetMapping("/")
     public String homePage(Model model) {
@@ -25,9 +22,5 @@ public class HomePageController {
         return "index";
     }
 
-    @GetMapping("/coming-soon")
-    public String comingSoon(Model model) {
-       // model.addAttribute("comingSoon", comingSoon);
-        return "pages/coming-soon";
-    }
+
 }

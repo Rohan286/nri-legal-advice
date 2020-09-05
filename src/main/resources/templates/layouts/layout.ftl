@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="vendor/malihu-scrollbar/jquery.mCustomScrollbar.min.css">
         <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
         <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="vendor/hs-megamenu/src/hs.megamenu.css">
 
         <!-- CSS Unify -->
         <link rel="stylesheet" href="css/unify-core.css">
@@ -72,6 +73,7 @@
     <script src="js/components/hs.carousel.js"></script>
     <script src="js/components/hs.popup.js"></script>
     <script src="js/components/hs.go-to.js"></script>
+    <script src="js/components/hs.tabs.js"></script>
 
     </body>
     </html>

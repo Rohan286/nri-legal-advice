@@ -10,84 +10,35 @@
 
                 <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
 
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item g-mr-10">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-bg-white-opacity-0_2--hover g-color-white-opacity-0_6" href="#">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item g-mr-10">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-bg-white-opacity-0_2--hover g-color-white-opacity-0_6" href="#">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item g-mr-10">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-bg-white-opacity-0_2--hover g-color-white-opacity-0_6" href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item g-mr-10">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-bg-white-opacity-0_2--hover g-color-white-opacity-0_6" href="#">
-                            <i class="fa fa-dribbble"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- End Footer Content -->
-
-            <!-- Footer Content -->
-            <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
-                <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
-                    <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Latest Posts</h2>
-                </div>
-
-                <article class="media">
-                    <a class="d-flex g-mt-4 mr-3" href="#">
-                        <img class="g-width-60 g-height-60" src="img-temp/100x100/img13.jpg" alt="Image Description">
-                    </a>
-
-                    <div class="media-body">
-                        <h3 class="h6">
-                            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Top 7 luxury places to visit around Victoria, BC</a>
-                        </h3>
-
-                        <ul class="u-list-inline g-font-size-12">
-                            <li class="list-inline-item">June 09, 2017</li>
-                            <li class="list-inline-item">/</li>
-                            <li class="list-inline-item">
-                                <a class="u-link-v5 g-color-white-opacity-0_8 g-color-white--hover" href="#">
-                                    <i class="fa fa-comments-o"></i>
-                                    12
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-
-                <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
-
-                <article class="media">
-                    <a class="d-flex g-mt-4 mr-3" href="#">
-                        <img class="g-width-60 g-height-60" src="img-temp/100x100/img8.jpg" alt="Image Description">
-                    </a>
-
-                    <div class="media-body">
-                        <h3 class="h6">
-                            <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#">Coding week, 10 best premium templates</a>
-                        </h3>
-
-                        <ul class="u-list-inline g-font-size-12">
-                            <li class="list-inline-item">July 30, 2017</li>
-                            <li class="list-inline-item">/</li>
-                            <li class="list-inline-item">
-                                <a class="u-link-v5 g-color-white-opacity-0_8 g-color-white--hover" href="#">
-                                    <i class="fa fa-comments-o"></i>
-                                    18
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
+                    <!-- Social Icons -->
+                    <ul class="list-inline mb-50">
+                        <li class="list-inline-item g-mr-2">
+                            <a class="u-icon-v1 u-icon-slide-up--hover g-color-gray-dark-v4 g-color-white--hover g-bg-facebook--hover rounded" href="#">
+                                <i class="g-font-size-18 g-line-height-1 u-icon__elem-regular fa fa-facebook"></i>
+                                <i class="g-color-white g-font-size-18 g-line-height-0_8 u-icon__elem-hover fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item g-mx-2">
+                            <a class="u-icon-v1 u-icon-slide-up--hover g-color-gray-dark-v4 g-color-white--hover g-bg-twitter--hover rounded" href="#">
+                                <i class="g-font-size-18 g-line-height-1 u-icon__elem-regular fa fa-twitter"></i>
+                                <i class="g-color-white g-font-size-18 g-line-height-0_8 u-icon__elem-hover fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item g-mx-2">
+                            <a class="u-icon-v1 u-icon-slide-up--hover g-color-gray-dark-v4 g-color-white--hover g-bg-instagram--hover rounded" href="#">
+                                <i class="g-font-size-18 g-line-height-1 u-icon__elem-regular fa fa-instagram"></i>
+                                <i class="g-color-white g-font-size-18 g-line-height-0_8 u-icon__elem-hover fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item g-mx-2">
+                            <a class="u-icon-v1 u-icon-slide-up--hover g-color-gray-dark-v4 g-color-white--hover g-bg-google-plus--hover rounded" href="#">
+                                <i class="g-font-size-18 g-line-height-1 u-icon__elem-regular fa fa-google-plus"></i>
+                                <i class="g-color-white g-font-size-18 g-line-height-0_8 u-icon__elem-hover fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- End Social Icons -->
+               <#-- </div>-->
             </div>
             <!-- End Footer Content -->
 
@@ -186,6 +137,20 @@
                 </address>
             </div>
             <!-- End Footer Content -->
+
+        <div class="col-lg-3 col-md-6 g-mb-40 g-mb-0--lg">
+
+        <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+            <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Subscribe</h2>
+        </div>
+           <!-- Subscribe Form -->
+            <form class="input-group u-shadow-v19 rounded">
+                <input class="form-control g-brd-none g-color-gray-dark-v5 g-bg-main-light-v2 g-bg-main-light-v2--focus g-placeholder-gray-dark-v3 rounded g-px-20 g-py-8" type="email" placeholder="Enter your email">
+                <span class="input-group-addon u-shadow-v19 g-brd-none g-bg-main-light-v2 g-pa-5">
+                    <button class="btn u-btn-primary rounded text-uppercase g-py-8 g-px-18" type="submit"><i class="fa fa-angle-right"></i></button>
+                  </span>
+            </form>
+            <!-- End Subscribe Form -->
         </div>
     </div>
 </div>

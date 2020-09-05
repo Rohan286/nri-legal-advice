@@ -1,31 +1,14 @@
 <#import "../layouts/layout.ftl" as layout>
 <@layout.nlaLayout>
 
-    <!-- Breadcrumbs -->
-    <section class="g-brd-bottom g-brd-gray-light-v4 g-py-30">
-        <div class="container">
-            <ul class="u-list-inline">
-                <li class="list-inline-item g-mr-5">
-                    <a class="u-link-v5 g-color-text" href="#">Home</a>
-                    <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
-                </li>
-                <li class="list-inline-item g-mr-5">
-                    <a class="u-link-v5 g-color-text" href="#">Pages</a>
-                    <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
-                </li>
-                <li class="list-inline-item g-color-primary">
-                    <span>Login</span>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- End Breadcrumbs -->
+    <#import "../components/breadcrumb.ftl" as layout>
+    <@layout.nlaBreadcrumb activePage="Login"></@layout.nlaBreadcrumb>
 
     <!-- Login -->
     <section class="container g-pt-100 g-pb-20">
         <div class="row justify-content-between">
             <div class="col-md-6 col-lg-5 order-lg-2 g-mb-80">
-                <div class="g-brd-around g-brd-gray-light-v3 g-bg-white rounded g-px-30 g-py-50 mb-4">
+                <div class="u-shadow-v1-5 g-brd-around g-brd-gray-light-v3 g-bg-white rounded g-px-30 g-py-50 mb-4">
                     <header class="text-center mb-4">
                         <h1 class="h4 g-color-black g-font-weight-400">Login to Your Account</h1>
                     </header>
@@ -87,9 +70,9 @@
                                 </button>
                             </div>
                             <div class="col-6">
-                                <button class="btn btn-block u-btn-twitter g-font-size-12 text-uppercase g-py-12 g-px-25 ml-2" type="button">
-                                    <i class="mr-1 fa fa-twitter"></i>
-                                    Twitter
+                                <button class="btn btn-block u-btn-google-plus g-font-size-12 text-uppercase g-py-12 g-px-25 ml-2" type="button">
+                                    <i class="mr-1 fa fa-google"></i>
+                                    Google
                                 </button>
                             </div>
                         </div>

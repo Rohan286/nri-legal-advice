@@ -1,8 +1,9 @@
-<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300" style="margin-top: 0px;">
+<!-- Header -->
+<header id="js-header" class="u-header u-header--static u-header--show-hide u-header--change-appearance" data-header-fix-moment="500" data-header-fix-effect="slide">
 
     <#include "topbar.ftl"/>
 
-    <div class="u-header__section u-header__section--light g-bg-white-opacity-0_8 g-py-10" data-header-fix-moment-exclude="g-bg-white-opacity-0_8 g-py-10" data-header-fix-moment-classes="g-bg-white u-shadow-v18 g-py-0">
+    <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-bg-white g-py-10" data-header-fix-moment-classes="g-bg-white-opacity-0_7 u-shadow-v18 g-py-0">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <!-- Responsive Toggle Button -->
@@ -14,16 +15,14 @@
               </span>
                 </button>
                 <!-- End Responsive Toggle Button -->
-
                 <!-- Logo -->
                 <a href="../../../index.html" class="navbar-brand">
                     <img src="img/logo/logo-1.png" alt="Image Description">
                 </a>
                 <!-- End Logo -->
-
                 <#include "navigation.ftl"/>
-
             </div>
         </nav>
     </div>
 </header>
+<!-- End Header -->

@@ -56,11 +56,11 @@
                     </li>
                     <li class="list-inline-item g-mx-4">|</li>
                     <li class="list-inline-item g-mx-4">
-                        <a class="g-color-white g-color-primary--hover g-text-underline--none--hover" href="#">FAQ</a>
+                        <a class="g-color-white g-color-primary--hover g-text-underline--none--hover" href="/faq">FAQ</a>
                     </li>
                     <li class="list-inline-item g-mx-4">|</li>
                     <li class="list-inline-item g-mx-4">
-                        <a class="g-color-white g-color-primary--hover g-text-underline--none--hover" href="#">Login</a>
+                        <a class="g-color-white g-color-primary--hover g-text-underline--none--hover" href="/login">Login</a>
                     </li>
                 </ul>
             </div>
